@@ -1,9 +1,9 @@
 import MainBanner from '../components/MainBanner'
 import Head from 'next/head'
-import AboutMeBlock from '@/components/aboutMe/AboutMeBlock'
-import ProjectsBlock from '@/components/projects/ProjectsBlock'
-import ContactBlock from '@/components/contact/ContactBlock'
-import Layout from '@/components/Layout'
+import AboutMeBlock from '../../src/components/aboutMe/AboutMeBlock'
+import ProjectsBlock from '../../src/components/projects/ProjectsBlock'
+import ContactBlock from '../../src/components/contact/ContactBlock'
+import Layout from '../../src/components/Layout'
 
 export default function Home() {
   return (

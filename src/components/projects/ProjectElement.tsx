@@ -27,7 +27,7 @@ const ProjectElement = ({ image, name, description, linkToSite, linkToCode1, lin
                     />
                     <div className='flex flex-row justify-evenly flex-wrap'>
                         <PrimaryButton text='Frontend code' href={linkToCode1}/>
-                        { linkToCode2 && <PrimaryButton text='backend code' href={linkToCode1}/> }
+                        { linkToCode2 && <PrimaryButton text='backend code' href={linkToCode2}/> }
                         <PrimaryButton text='live site' href={linkToSite}/>
                     </div>
                 </div>

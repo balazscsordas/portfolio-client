@@ -15,7 +15,7 @@ body {
 }
 
 .bg-banner {
-  background: linear-gradient(to right,rgba(245,245,245,.9),rgba(245, 245, 245, 0.9)),url("../../public/diagmonds.png");
+  background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245, 245, 245, 0.8)),url("../../public/diagmonds.png");
   background-position: center;
 }
 

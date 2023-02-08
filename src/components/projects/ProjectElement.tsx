@@ -16,7 +16,7 @@ interface Props {
 
 const ProjectElement = ({ image, name, description, linkToSite, linkToCode1, linkToCode2, functions, stackList }: Props) => {
     return (
-        <section className="grid lg:grid-cols-2 gap-28 mb-40">
+        <section className="grid lg:grid-cols-2 gap-20 lg:gap-28 mb-32">
             <div className="flex justify-center items-center">
                 <div>
                     <Image 
@@ -39,8 +39,7 @@ const ProjectElement = ({ image, name, description, linkToSite, linkToCode1, lin
                     <h4 className='font-bold text-xl mb-6'>Functions:</h4>
                     {functions.map((listItem, index) => (
                         <div key={index}>
-                            <span className='mr-2'><ArrowRightAltIcon/></span>
-                            <p className='mt-2 inline-block'>{listItem}</p>
+                            <p className='mt-2 inline-block'><ArrowRightAltIcon/> {listItem}</p>
                         </div>
                     ))}
                 </div>}

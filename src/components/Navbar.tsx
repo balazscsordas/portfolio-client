@@ -17,7 +17,7 @@ const Navbar = () => {
 
 
     return (
-        <header className="uppercase font-bold  fixed top-0 w-full bg-white z-10">
+        <header className="uppercase font-bold  fixed top-0 w-full bg-slate-200 z-10">
             <section className="flex flex-row justify-between max-w-7xl m-auto items-center px-4">
                 <div className="flex flex-row items-center">
                     <Image 
@@ -51,7 +51,7 @@ const Navbar = () => {
                 </nav>
             </section>
             <Collapse in={showMobileNavbar}>
-                <div>
+                <div className="border-t-2 border-slate-300">
                     <nav className="flex flex-col" >
                         <Link scroll={false} className="px-6 py-4 ml-auto" onClick={() => setShowMobileNavbar(false)} href="/#banner">Home</Link>
                         <Link scroll={false} className="px-6 py-4 ml-auto" onClick={() => setShowMobileNavbar(false)} href="/#about-me">About</Link>

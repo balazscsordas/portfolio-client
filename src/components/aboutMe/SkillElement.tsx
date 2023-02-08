@@ -4,7 +4,7 @@ interface Props {
 
 const SkillElement = ({ name }: Props) => {
     return (
-        <span className="py-3 px-6 font-semibold m-2 bg-slate-200 rounded-md shadow-sm text-gray-600">
+        <span className="py-3 px-4 font-semibold m-2 bg-slate-200 rounded-md shadow-sm text-gray-600">
             { name }
         </span>
     )

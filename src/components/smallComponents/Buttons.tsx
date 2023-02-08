@@ -38,7 +38,7 @@ export const EmailButton = () => {
         <a 
             href="mailto:csordasbalu96@gmail.com"
             className="px-8 py-3 md:py-4 m-8 bg-[#facf0f] rounded-md shadow-md uppercase font-bold tracking-[2px]">
-            <MailIcon className="mr-3 text-[21px] mb-[3px]"/>Send me an email
+            <MailIcon className="mr-3 text-[21px] mb-[3px]"/>email me
         </a>
     )
 }

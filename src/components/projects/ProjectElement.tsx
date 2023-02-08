@@ -1,20 +1,22 @@
 import Image, { StaticImageData } from 'next/image';
 import SkillElement from '../aboutMe/SkillElement';
 import { PrimaryButton } from '../smallComponents/Buttons';
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 interface Props {
     image: StaticImageData;
     name: string;
     description: string;
     linkToSite: string;
-    linkToCode: string;
-    functions: string[];
+    linkToCode1: string;
+    linkToCode2?: string;
+    functions?: string[];
     stackList: string[];
 }
 
-const ProjectElement = ({ image, name, description, linkToSite, linkToCode, functions, stackList }: Props) => {
+const ProjectElement = ({ image, name, description, linkToSite, linkToCode1, linkToCode2, functions, stackList }: Props) => {
     return (
-        <section className="grid lg:grid-cols-2 gap-28 my-28">
+        <section className="grid lg:grid-cols-2 gap-28 mb-40">
             <div className="flex justify-center items-center">
                 <div>
                     <Image 
@@ -23,21 +25,25 @@ const ProjectElement = ({ image, name, description, linkToSite, linkToCode, func
                         width={600}
                         height={600}
                     />
-                    <div className='flex flex-row justify-evenly'>
-                        <PrimaryButton text='Live site' href={linkToCode}/>
-                        <PrimaryButton text='Codebase' href={linkToSite}/>
+                    <div className='flex flex-row justify-evenly flex-wrap'>
+                        <PrimaryButton text='Frontend code' href={linkToCode1}/>
+                        { linkToCode2 && <PrimaryButton text='backend code' href={linkToCode1}/> }
+                        <PrimaryButton text='live site' href={linkToSite}/>
                     </div>
                 </div>
             </div>
             <div>
                 <h3 className="font-bold text-3xl mb-8">{ name }</h3>
                 <p>{ description }</p>
-                <div className='mt-8'>
+                {functions && <div className='mt-8'>
                     <h4 className='font-bold text-xl mb-6'>Functions:</h4>
                     {functions.map((listItem, index) => (
-                        <p className='mt-2' key={index}><span> - </span>{listItem}</p>
+                        <div key={index}>
+                            <span className='mr-2'><ArrowRightAltIcon/></span>
+                            <p className='mt-2 inline-block'>{listItem}</p>
+                        </div>
                     ))}
-                </div>
+                </div>}
                 <div className='mt-8'>
                     <h4 className='font-bold text-xl mb-6'>Stack:</h4>
                     <div className='flex-wrap flex'>

@@ -53,10 +53,10 @@ const Navbar = () => {
             <Collapse in={showMobileNavbar}>
                 <div>
                     <nav className="flex flex-col" >
-                        <Link scroll={false} className="px-6 py-4 ml-auto" onClick={() => setShowMobileNavbar(true)} href="/#banner">Home</Link>
-                        <Link scroll={false} className="px-6 py-4 ml-auto" onClick={() => setShowMobileNavbar(true)} href="/#about-me">About</Link>
-                        <Link scroll={false} className="px-6 py-4 ml-auto" onClick={() => setShowMobileNavbar(true)} href="/#projects">Projects</Link>
-                        <Link scroll={false} className="px-6 py-4 ml-auto" onClick={() => setShowMobileNavbar(true)} href="/#contact">Contact</Link>
+                        <Link scroll={false} className="px-6 py-4 ml-auto" onClick={() => setShowMobileNavbar(false)} href="/#banner">Home</Link>
+                        <Link scroll={false} className="px-6 py-4 ml-auto" onClick={() => setShowMobileNavbar(false)} href="/#about-me">About</Link>
+                        <Link scroll={false} className="px-6 py-4 ml-auto" onClick={() => setShowMobileNavbar(false)} href="/#projects">Projects</Link>
+                        <Link scroll={false} className="px-6 py-4 ml-auto" onClick={() => setShowMobileNavbar(false)} href="/#contact">Contact</Link>
                     </nav>
                 </div>
             </Collapse>

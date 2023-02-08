@@ -3,11 +3,7 @@ import { GithubButton, LinkedInButton } from "./smallComponents/Buttons";
 const Footer = () => {
     return (
         <section className="text-center p-4">
-            <div>
-                <LinkedInButton/>
-                <GithubButton/>
-            </div>
-            <p className="mt-2">Balazs Csordas</p>
+            <p className="text-gray-400 font-medium">Balazs Csordas</p>
         </section>
     )
 }

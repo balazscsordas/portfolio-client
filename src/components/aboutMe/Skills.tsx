@@ -15,6 +15,7 @@ const Skills = () => {
                 <SkillElement name="Node.js"/>
                 <SkillElement name="Express.js"/>
                 <SkillElement name="SQL"/>
+                <SkillElement name="MySQL"/>
                 <SkillElement name="MongoDB"/>
                 <SkillElement name="Git"/>
                 <SkillElement name="REST API"/>

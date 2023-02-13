@@ -22,6 +22,7 @@ const Navbar = () => {
                 <div className="flex flex-row items-center">
                     <Image 
                         className="hidden sm:block rounded-full shadow-sm"
+                        loading="eager"
                         src={myImage}
                         alt="my image"
                         width={50}

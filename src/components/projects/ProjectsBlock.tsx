@@ -17,12 +17,13 @@ const ProjectsBlock = () => {
                 linkToSite="https://beautyassistant.hu/"
                 functions={[
                     "Authentication + JWT Authorization",
+                    "Online appointment booking",
                     "Create, Read, Update, Delete clients",
                     "Create, Read, Update, Delete services",
                     "Create, Read, Update, Delete giftcards",
                     "Create, Read, Update, Delete appointments",
                     "Display appointments in a great visual way sorted by week",
-                    "Provide useful statistics about their clients, services, income etc.",
+                    "Provide useful statistics, graphs about their clients, services, income etc.",
                     "Multilangual platform ( English + Hungarian )"
                 ]}
                 stackList={[

@@ -8,15 +8,15 @@ const Skills = () => {
                 <SkillElement name="React"/>
                 <SkillElement name="Next.js"/>
                 <SkillElement name="TypeScript"/>
-                <SkillElement name="JavaScript"/>
-                <SkillElement name="Tailwind"/>
-                <SkillElement name="Bootstrap"/>
-                <SkillElement name="Material UI"/>
                 <SkillElement name="Node.js"/>
                 <SkillElement name="Express.js"/>
                 <SkillElement name="SQL"/>
                 <SkillElement name="MySQL"/>
                 <SkillElement name="MongoDB"/>
+                <SkillElement name="JavaScript"/>
+                <SkillElement name="Tailwind"/>
+                <SkillElement name="Bootstrap"/>
+                <SkillElement name="Material UI"/>
                 <SkillElement name="Git"/>
                 <SkillElement name="REST API"/>
             </div>

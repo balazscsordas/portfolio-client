@@ -8,12 +8,13 @@ const Skills = () => {
                 <SkillElement name="React"/>
                 <SkillElement name="Next.js"/>
                 <SkillElement name="TypeScript"/>
+                <SkillElement name="JavaScript"/>
                 <SkillElement name="Node.js"/>
                 <SkillElement name="Express.js"/>
                 <SkillElement name="SQL"/>
                 <SkillElement name="MySQL"/>
                 <SkillElement name="MongoDB"/>
-                <SkillElement name="JavaScript"/>
+                <SkillElement name="Mongoose"/>
                 <SkillElement name="Tailwind"/>
                 <SkillElement name="Bootstrap"/>
                 <SkillElement name="Material UI"/>

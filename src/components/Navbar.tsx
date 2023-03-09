@@ -5,8 +5,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { Collapse, IconButton } from "@mui/material";
 import { useState } from "react";
 
-
-
 const Navbar = () => {
 
     const [showMobileNavbar, setShowMobileNavbar] = useState(false);
@@ -14,7 +12,6 @@ const Navbar = () => {
     const handleClick = () => {
         setShowMobileNavbar(prevValue => !prevValue);
     }
-
 
     return (
         <header className="uppercase font-bold  fixed top-0 w-full bg-slate-200 z-10">

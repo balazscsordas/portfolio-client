@@ -11,7 +11,10 @@ const Skills = () => {
                 <SkillElement name="JavaScript"/>
                 <SkillElement name="Node.js"/>
                 <SkillElement name="Express.js"/>
+                <SkillElement name="C#"/>
+                <SkillElement name=".NET"/>
                 <SkillElement name="SQL"/>
+                <SkillElement name="MSSQL"/>
                 <SkillElement name="MySQL"/>
                 <SkillElement name="MongoDB"/>
                 <SkillElement name="Mongoose"/>

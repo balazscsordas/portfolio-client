@@ -8,13 +8,12 @@ interface Props {
     name: string;
     description: string;
     linkToSite: string;
-    linkToCode1: string;
-    linkToCode2?: string;
+    linkToCode: string;
     functions?: string[];
     stackList: string[];
 }
 
-const ProjectElement = ({ image, name, description, linkToSite, linkToCode1, linkToCode2, functions, stackList }: Props) => {
+const ProjectElement = ({ image, name, description, linkToSite, linkToCode, functions, stackList }: Props) => {
     return (
         <section className="grid lg:grid-cols-2 gap-20 lg:gap-28 mb-32">
             <div className="flex justify-center items-center">
@@ -26,8 +25,7 @@ const ProjectElement = ({ image, name, description, linkToSite, linkToCode1, lin
                         height={600}
                     />
                     <div className='flex flex-row justify-evenly flex-wrap'>
-                        <PrimaryButton text='Frontend code' href={linkToCode1}/>
-                        { linkToCode2 && <PrimaryButton text='backend code' href={linkToCode2}/> }
+                        <PrimaryButton text='Code' href={linkToCode}/>
                         <PrimaryButton text='live site' href={linkToSite}/>
                     </div>
                 </div>

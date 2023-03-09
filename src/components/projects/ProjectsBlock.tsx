@@ -11,8 +11,7 @@ const ProjectsBlock = () => {
                 image={BeautyAssistantImage}
                 name="Beauty Assistant"
                 description="Web application for small beauty businesses packed with useful features, such as online appointment booking, stats and graphs about their business, internal appointment management (CREATE, UPDATE, DELETE), service, client list. With the help of the application, they can save time, check their appointments and other important informations about their clients online."  
-                linkToCode1="https://github.com/balazscsordas/Beauty-Assistant-client"
-                linkToCode2="https://github.com/balazscsordas/Beauty-Assistant-server"
+                linkToCode="https://github.com/stars/balazscsordas/lists/beauty-assistant"
                 linkToSite="https://beautyassistant.hu/"
                 functions={[
                     "Authentication + JWT Authorization",
@@ -33,7 +32,7 @@ const ProjectsBlock = () => {
                 image={DorinKozmetikaImage}
                 name="Website for client"
                 description="I was responsible for building the website based on the client's requirements and hosting it."  
-                linkToCode1="https://github.com/balazscsordas/website-for-client-cosmetics-"
+                linkToCode="https://github.com/balazscsordas/website-for-client-cosmetics-"
                 linkToSite="https://dorinkozmetika.hu/"
                 stackList={[
                     "Gatsby.js", "JavaScript", "Sass", "HTML", "Bootstrap", "Neflify"
